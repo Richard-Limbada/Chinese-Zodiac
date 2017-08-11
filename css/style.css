@@ -1,0 +1,78 @@
+section {
+    text-align: center;
+    width: 85%;
+    max-width: 550px;
+    height: auto;
+    padding: 45px;
+    padding-bottom: 20px;
+    padding-top; 20px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    -moz-box-shadow: 2px 8px 60px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 2px 8px 60px rgba(0, 0, 0, .8);
+    box-shadow: 2px 8px 40px rgba(0, 0, 0, .8);
+    border: 4px solid #f2e9e5;
+    border-radius: 5px;6
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+
+}
+
+body {
+    color: #6d4a4a;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/backgroundtile2.jpg)
+}
+p {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 0.95em;
+}
+h1 {
+    font-weight: 900; 
+}
+
+input {
+    width: 40px;
+    border-radius: 3px;
+    border-color: #e8dada;
+    border-style: solid;
+    border-width: 3px;
+    padding: 7px;
+    margin-right: 2px;
+    height: 20px;
+}
+
+button#resultsBtn {
+    color: white;
+    background-color: #6a0c0c;
+    border-radius: 5px;
+    border-color: #d3c4b1;
+    border-style: hidden;
+    border-width: medium;
+    padding: 10px;
+}
+
+button#resultsBtn:hover {
+    background-color: #a70b0b;
+}
+
+#result {
+    
+    height: 125px;
+    width: auto;
+    margin: 20px auto;
+    background-image: url(../img/tree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all;
+    transition-delay: 0.20s;
+    transition-duration: 1.30s;
+    transition-timing-function: ease-in-out;
+}
